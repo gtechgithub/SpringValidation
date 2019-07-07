@@ -10,6 +10,17 @@ import org.springframework.context.annotation.ImportResource;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
+/*******
+
+here we have used SpringApplicationBuilder in the starter application, 
+is used to build the Spring application, here we are including the SpringValidationApplication class
+in the SpringApplicationBuilder sources.
+
+SpringApplicationBuilder is a builder for SpringApplication 
+and ApplicationContext instances with convenient fluent API and context hierarchy support.
+
+******/
+
 @SpringBootApplication
 //@ImportResource("classpath:springcontext.xml")
 @ComponentScan(basePackages = "com.javapoint" )
